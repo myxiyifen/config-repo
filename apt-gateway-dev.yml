@@ -7,5 +7,5 @@ zuul:
 # 简洁写法
 #    product: /myProduct/**
 #    排除某些路由，禁止外部访问
-#  ignored-patterns:
-#   - /**/product/listForOrder
+  ignored-patterns:
+   - /**/product/listForOrder
